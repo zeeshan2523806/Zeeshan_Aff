@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Zeeshan_Affiliate | A test module for Sun and Sand Sports UAE
+   @category  Zeeshan
+   @package   Zeeshan_Affiliate
+
+ */-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Zeeshan_Affiliate::affiliate" title="Affiliate Members" module="Zeeshan_Affiliate" sortOrder="51" resource="Zeeshan_Affiliate::affiliate" parent="Magento_Backend::marketing"/>
+        <add id="Zeeshan_Affiliate::member" title="Affiliate Members" module="Zeeshan_Affiliate" sortOrder="10" action="zeeshan_affiliate/member" resource="Zeeshan_Affiliate::member" parent="Zeeshan_Affiliate::affiliate"/>
+    </menu>
+</config>

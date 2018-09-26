@@ -1,0 +1,22 @@
+{
+    "name": "zeeshan/module-affiliate",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Zeeshan Khuwaja",
+            "email": "zeeshan_hyder2010@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Zeeshan\\Affiliate\\": ""
+        }
+    }
+}

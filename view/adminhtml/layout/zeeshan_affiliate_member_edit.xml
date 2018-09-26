@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Zeeshan_Affiliate | A test module for Sun and Sand Sports UAE
+   @category  Zeeshan
+   @package   Zeeshan_Affiliate
+
+ */-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <update handle="editor"/>
+    <body>
+        <referenceContainer name="content">
+            <block class="Zeeshan\Affiliate\Block\Adminhtml\Member\Edit" name="zeeshan_affiliate_member_edit"/>
+        </referenceContainer>
+        <referenceContainer name="left">
+            <block class="Zeeshan\Affiliate\Block\Adminhtml\Member\Edit\Tabs" name="zeeshan_affiliate_member_tabs">
+                <block class="Zeeshan\Affiliate\Block\Adminhtml\Member\Edit\Tab\Member" name="zeeshan_affiliate_member_edit_tab_member"/>
+                <action method="addTab">
+                    <argument name="name" xsi:type="string">member</argument>
+                    <argument name="block" xsi:type="string">zeeshan_affiliate_member_edit_tab_member</argument>
+                </action>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

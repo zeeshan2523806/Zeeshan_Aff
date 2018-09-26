@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Zeeshan_Affiliate | A test module for Sun and Sand Sports UAE
+   @category  Zeeshan
+   @package   Zeeshan_Affiliate
+
+ */-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/App/etc/routes.xsd">
+    <router id="admin">
+        <route id="zeeshan_affiliate" frontName="zeeshan_affiliate">
+            <module name="Zeeshan_Affiliate" before="Magento_Backend"/>
+        </route>
+    </router>
+</config>
