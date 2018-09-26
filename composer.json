@@ -1,5 +1,5 @@
 {
-    "name": "zeeshan/module-affiliate",
+    "name": "lsretail/module-affiliate",
     "description": "",
     "type": "magento2-module",
     "license": "proprietary",
@@ -16,7 +16,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Zeeshan\\Affiliate\\": ""
+            "Lsretail\\Affiliate\\": ""
         }
     }
 }
